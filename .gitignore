@@ -32,8 +32,12 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-*/bin/
-*/obj/
+**/bin/*
+**/obj/*
+API/obj/
+Application/obj/
+Persistence/obj/
+
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -363,15 +367,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
