@@ -32,11 +32,8 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-**/bin/*
-**/obj/*
-API/obj/
-Application/obj/
-Persistence/obj/
+**/bin/**
+**/obj/**
 
 
 # Visual Studio 2015/2017 cache/options directory
