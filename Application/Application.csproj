@@ -1,19 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0"/>
   </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain.csproj" />
-    <ProjectReference Include="..\Persistence\Persistence.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj"/>
+    <ProjectReference Include="..\Persistence\Persistence.csproj"/>
   </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
-
 </Project>
