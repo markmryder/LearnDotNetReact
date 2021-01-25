@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i/cjGzcYsF6iGtwiuyS/Lg77ZMl48aaEsMwYJ88qqc41JpRDIb+QwNKxnu3nzphnguxQAcwLxtvFbdLYu0aYFQ==",
+  "dgSpecHash": "9qUGQzbeF+xmOPf6UCNxPRWj9wL3hzCdm+kkn2rDkElCS+HownEwSeXPh3suWhwW5N7mMIhUXkjtmsu57mKgcg==",
   "success": true,
-  "projectFilePath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mark\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Mark\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

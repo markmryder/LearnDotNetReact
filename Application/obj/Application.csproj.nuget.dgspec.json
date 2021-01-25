@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Application\\Application.csproj": {}
+    "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Application\\Application.csproj": {}
   },
   "projects": {
-    "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Application\\Application.csproj": {
+    "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Application\\obj\\",
+        "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj"
+              "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj"
               },
-              "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Persistence\\Persistence.csproj"
+              "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj": {
+    "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\obj\\",
+        "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -141,14 +141,14 @@
         }
       }
     },
-    "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Persistence\\Persistence.csproj": {
+    "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -167,8 +167,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj"
+              "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj"
               }
             }
           }

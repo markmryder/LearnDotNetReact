@@ -1250,11 +1250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\API\\API.csproj",
+      "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\API\\API.csproj",
+      "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\api\\API.csproj",
       "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-      "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\API\\obj\\",
+      "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1273,8 +1273,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Application\\Application.csproj": {
-              "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Application\\Application.csproj"
+            "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Application\\Application.csproj": {
+              "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Application\\Application.csproj"
             }
           }
         }
