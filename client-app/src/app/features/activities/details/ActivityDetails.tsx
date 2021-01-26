@@ -1,14 +1,15 @@
 import React from "react";
-import { act } from "react-dom/test-utils";
-import { Button, ButtonGroup, Card, Icon, Image } from "semantic-ui-react";
+import { Button, Card, Image } from "semantic-ui-react";
 import { IActivity } from "../../../models/activity";
 
 
 interface IProps {
     activity: IActivity;
+    setEditMode: (editMode: boolean) => void;
+    setSelectedActivity: (activity: IActivity | null) => void;
   }
 
-const ActivityDetails: React.FC<IProps> = ({activity}) => {
+const ActivityDetails: React.FC<IProps> = ({activity, setEditMode, setSelectedActivity}) => {
   return (
     <Card fluid>
       <Image
@@ -27,8 +28,8 @@ const ActivityDetails: React.FC<IProps> = ({activity}) => {
       </Card.Content>
       <Card.Content extra>
         <Button.Group widths={2}>
-            <Button basic color='blue' content='Edit'></Button>
-            <Button basic color='grey' content='Cancel'></Button>
+            <Button onClick={() => setEditMode(true)} basic color='blue' content='Edit'></Button>
+            <Button onClick={() => setSelectedActivity(null)} basic color='grey' content='Cancel'></Button>
         </Button.Group>
       </Card.Content>
     </Card>
