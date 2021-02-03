@@ -12,10 +12,8 @@ constructor(){
 }
 
     @observable activityRegistry = new Map();
-    @observable activities: IActivity[] = [];
-    @observable selectedActivity: IActivity | undefined;
+    @observable activity: IActivity | null = null;
     @observable loadingInitial = false;
-    @observable editMode = false;
     @observable submitting = false;
     @observable target = '';
 
@@ -46,13 +44,42 @@ constructor(){
         }    
     };
 
+    @action loadActivity = async (id:string) => {
+        let activity = this.getActivity(id);
+        if(activity){
+            this.activity = activity;
+        }
+        else{
+            this.loadingInitial = true;
+            try{
+                activity = await agent.Activities.details(id);
+                runInAction(() => {
+                    this.activity = activity;
+                    this.loadingInitial = false;
+                })
+            }catch(error){
+                console.log(error);
+                runInAction(() => {
+                    this.loadingInitial = false;
+                })
+            }
+        }
+    }
+
+    @action clearActivity = () => {
+        this.activity = null;
+    }
+
+    getActivity = (id:string) => {
+        return this.activityRegistry.get(id);
+    }
+
     @action createActivity = async (activity: IActivity) => {
         this.submitting = true;
         try{
             await agent.Activities.create(activity);
             runInAction(() => {
                 this.activityRegistry.set(activity.id,activity);
-                this.editMode = false;
                 this.submitting = false;
             })
             
@@ -70,8 +97,7 @@ constructor(){
             await agent.Activities.update(activity);
             runInAction(() => {
                 this.activityRegistry.set(activity.id, activity);
-                this.selectedActivity = activity;
-                this.editMode = false;
+                this.activity = activity;
                 this.submitting = false;
             })
             
@@ -105,29 +131,7 @@ constructor(){
         }
         
     }
-
-    @action openEditForm = (id:string) => {
-        this.selectedActivity = this.activityRegistry.get(id);
-        this.editMode = true;
-    }
-
-    @action cancelSelectedActivity = () => {
-        this.selectedActivity = undefined;
-    }
-
-    @action cancelFormOpen = () => {
-        this.editMode = false;
-    }
-
-    @action openCreateForm = () => {
-        this.editMode = true;
-        this.selectedActivity = undefined;
-    }
-
-    @action selectActivity = (id: string) => {
-        this.selectedActivity = this.activityRegistry.get(id);
-        this.editMode = false;
-    }
+    
 }
 
 export default createContext(new ActivityStore());

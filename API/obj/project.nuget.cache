@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oEvMshZDJm8vc2hBZrLK2XIoPWIEXfbMJwe7yQCBSjgkc1aWv9VHSxPGbf/rmqQ+8D4mxKeTfxHEnQ63AmMD6A==",
+  "dgSpecHash": "GG2Iv6ZqRv4sUMJ6utIf4FJ9nagZgzVCuwPsW9l8EE7aFwsMgvAQhSzLxQ0z4h+g4be8ExRMPSz0h51aB20gFg==",
   "success": true,
-  "projectFilePath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\api\\API.csproj",
+  "projectFilePath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mark\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
     "C:\\Users\\Mark\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\7.0.0\\mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

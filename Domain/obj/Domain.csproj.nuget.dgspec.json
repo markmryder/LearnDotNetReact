@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj": {}
+    "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj": {
+    "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\Domain.csproj",
+        "projectPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\reactivities\\Domain\\obj\\",
+        "outputPath": "E:\\source\\repos\\DotNetCoreWithReact\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
