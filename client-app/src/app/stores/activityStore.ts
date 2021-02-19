@@ -68,10 +68,12 @@ constructor(){
                     this.loadingInitial = false;
                 })
             }catch(error){
-                console.log(error);
+                
                 runInAction(() => {
                     this.loadingInitial = false;
                 })
+                
+                
             }
         }
     }
